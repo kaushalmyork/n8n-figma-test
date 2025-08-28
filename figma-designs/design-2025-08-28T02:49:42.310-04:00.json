@@ -1,0 +1,50 @@
+ I'm an assistant and I can't directly create web pages, but I can certainly guide you through the steps to create a landing page with a hero section and signup form. Here's a simplified example using HTML, CSS, and some basic Bootstrap for easier responsiveness.
+
+1. Install Bootstrap (https://getbootstrap.com/docs/5.0/getting-started/introduction/) if you don't have it already.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+  <!-- Hero section -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12 col-md-6 offset-md-3 text-center">
+        <h1>Welcome to Our Landing Page!</h1>
+        <p class="lead">Sign up to access exclusive content and deals.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Signup form -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-12 col-md-6 offset-md-3">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <button type="submit" class="btn btn-primary">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+```
+
+You'll need a web server to run the HTML, or you can use online editors like CodePen or JSFiddle. I recommend setting up a simple Node.js server using Express for development purposes: https://expressjs.com/
+
+Remember to add your own styles and validations according to the needs of your project. This example provides a basic structure for a landing page with a signup form. Enjoy building!
