@@ -1,0 +1,1 @@
+"import React from 'react';\nimport './App.css';\n\nfunction App() {\n  return (\n    <div className=\"App\">\n      <h1>Welcome to Food Delivery</h1>\n    </div>\n  );\n}\n\nexport default App;\n"
