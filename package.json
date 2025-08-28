@@ -1,0 +1,4 @@
+"{\n  \"name\": \"food-delivery\",\n  \"version\": \"1.0.0\",\n  \"scripts\": {\n    \"start\": \"react-scripts start\",\n    \"build\": \"react-scripts build\",\n    \"test\": \"react-scripts test\",\n    \"eject\": \"react-scripts eject\"\n  },\n  \"dependencies\": {\n    \"react\": \"^17.0.2\",\n    \"react-dom\": \"^17.0.2\",\n    \"react-scripts\": \"4.0.3\"\n  },\n  \"private\": true\n}"
+}
+
+Make sure you have Node.js and npm installed on your system before running the app. After generating the files, navigate to the project folder in your terminal, and run `npm install` to install the required dependencies. Then, you can start the development server by running `npm start`.
